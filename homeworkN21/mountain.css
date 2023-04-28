@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url(Adamina-Regular.ttf);
+}
+@font-face {
+    font-family: 'Abel';
+    src: url(Abel-Regular.ttf);
+}
+body {
+    background-color: #12DCC6;
+    background-image: url(Group\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 288px;
+    margin: 0;
+}
+nav {
+    padding-left: 108px;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.45);
+    padding-right: 63px;
+}
+.a-div {
+    margin-left: 33px;
+    display: flex;
+    align-items: center;
+}
+.nav-a {
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    color: white;
+    text-decoration: none;
+    margin-left: 52px;
+}
+.logo {
+    margin-left: auto;
+}
+.title-div-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+.title1 {
+    font-family: 'Adamina';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 68px;
+    color: white;
+}
+.title2 {
+    font-family: 'Abel';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 64px;
+}
+.title3 {
+    font-family: 'Adamina';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 68px;
+}
+.container1  {
+    width: 518px;
+    margin-top: 157px;
+    margin-left: 183px;
+    position: relative;
+}
+.trip {
+    font-family: 'Adamina';
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 64px;
+    color: white;
+}
+.lets-travel {
+    display: inline-block;
+    font-family: 'Adamina';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+    margin-top: 41px;
+}
+.get-started {
+    font-family: 'Poppins';
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 47px;
+    height: 89px;
+    width: 255px;
+    border-radius: 20px;
+    background-color: #09C2AE;
+    border: none;
+    color: white;
+    margin-top: 180px;
+}
+.container2 {
+    height: 385.6px;
+    width: 91.6px;
+    margin-top: 171px;
+    margin-left: auto;
+}
+.div-main {
+    display: flex;
+}
+.main-section {
+    padding-right: 65px;
+}
